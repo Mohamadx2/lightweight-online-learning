@@ -1,0 +1,19 @@
+# Core
+numpy>=1.24
+scikit-learn>=1.3
+
+# Embeddings & vector store (lightweight options)
+sentence-transformers>=2.2
+chromadb>=0.4
+
+# Optional: local LLM / adapter experiments
+# torch  # uncomment if using LoRA-style adapters
+# peft
+
+# Utilities
+tqdm
+rich
+
+# Demo / inspection
+jupyter
+ipywidgets
